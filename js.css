@@ -1,0 +1,166 @@
+/* General Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+h1 {
+    height: 100px;
+    color: aliceblue;
+    background-color: #100007;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Default font size for PC */
+}
+
+/* Image Container */
+.img {
+    height: 165px;
+    width: 165px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+img:hover {
+    border: 5px solid #80D39B;
+    cursor: pointer;
+}
+
+/* Images Section */
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Scores Section */
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+p {
+    font-size: x-large;
+}
+
+#user-score,
+#comp-score {
+    font-size: 80px;
+}
+
+/* Game Section */
+.game {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+/* Button Styling */
+h2 {
+    background-color: #200116;
+    display: inline;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+h2:hover {
+    border: 5px solid #80D39B;
+    cursor: pointer;
+}
+
+/* Responsive Design for Smartphones */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller font size for header */
+        height: auto; /* Adjust height */
+        padding: 1rem;
+    }
+
+    .img {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .images {
+        gap: 1rem; /* Reduce gap between images */
+        margin-top: 2rem;
+    }
+
+    .scores {
+        gap: 2rem; /* Reduce gap between scores */
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 50px; /* Smaller font size for scores */
+    }
+
+    .game {
+        font-size: 1.5rem; /* Adjust game text size */
+    }
+
+    h2 {
+        font-size: 1rem; /* Adjust button size */
+        padding: 0.5rem;
+    }
+}
+
+/* Responsive Design for Very Small Devices */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .img {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .images {
+        gap: 0.5rem;
+    }
+
+    .scores {
+        gap: 1rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 40px;
+    }
+
+    .game {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        padding: 0.3rem;
+    }
+}

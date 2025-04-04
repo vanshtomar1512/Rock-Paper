@@ -1,0 +1,367 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    box-sizing: border-box; /* Corrected property name */
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 114px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    background-image: url("hey.png");
+    height: 50px;
+    width: 100%;
+    background-size: contain; /* Ensure the image fits within the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+/** box 2 **/
+
+}
+.add1{
+ color: #cccccc;
+ font-size: 1rem;
+}
+.add2{
+color: #ffffff;
+font-size: 1 rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.address{
+    margin-left: 15px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+/**box 2 **/
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 555px;
+    height: 44px;
+}
+.searchbar:hover {
+    outline: 1.5px solid #febd68;
+    border-radius: 5px; /* Optional: Add border-radius to match the search icon */
+}
+.option{
+    height: 40px;
+    background-color: #e6e6e6;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 45px;
+    text-align: center;
+
+}
+.search{
+    height: 40px;
+    width: 466px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ffffff;
+}
+.search-icon{
+    width: 45px;
+    height: 40px;
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0; /* Ensure top-left corner is not rounded */
+    border-bottom-left-radius: 0;
+  
+
+/*box3*/    
+}
+.language{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.language-icon{
+    height: 16.2px;
+    width: 21.6px;
+
+}
+.country-name{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.down-icon{
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 0.5rem;
+}
+.hello1{
+    font-size: 12px;
+}
+.accounts1{
+    font-size: 14px;
+}
+.accounts{
+    display: flex;
+    margin-left: 45.71px;
+}
+.down-icon1{
+    margin-left: 3px;
+    font-size: 0.5rem;
+    margin-top: 5px;
+}
+.returns1{
+    font-size: 12px;
+}
+.orders2{
+    font-size: 14px;
+}
+.cart{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-icon{
+    width: 2.375rem; /* 38px */
+    height: 1.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.text{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.signin{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orders{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.orders1{
+    margin-left: 11.8px;
+}
+.panel{
+    height: 39px;
+    background-color: #232F3e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+.list{
+    display: flex;
+    margin-left: 20px;
+   margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.list-icon{
+    width: 17px;
+    height: 14px;
+    margin-bottom: 3px;
+
+}
+.text-list{
+    width: 22.9px;
+    height: 12px;
+    margin-left: 5px;
+    font-size: 14px;
+    margin-top: 3px;
+    
+} 
+.deals-text{
+    display: flex;
+    font-size: 14px;
+}
+.deals{
+ margin-left: 20px;
+}
+.deals-text p{
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+    background-image: url("amaze.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-msg{
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232F3e;
+    color: #ffffff;
+    width: 800px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 250px;
+
+}
+.hero-msg a{
+    text-decoration: none;
+    color: aqua;
+}
+.shop {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 233, 233);
+}
+
+.box {
+    margin-top: 15px;
+    width: 23%; /* Each box takes up 23% of the container width */
+    height: 420px; /* Set a fixed height for the boxes */
+    display: flex;
+    flex-direction: column; /* Ensure the content is stacked vertically */
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 25px 25px 25px 25px;
+}
+
+.box-image {
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: 320px;
+    background-size: cover;
+    background-position: center; /* Center the image */
+}
+
+.box1-image {
+    background-image: url("new.jpg");
+}
+
+.box2-image {
+    background-image: url("2.jpg"); /* Replace with the actual image path */
+}
+
+.box3-image {
+    background-image: url("3.jpg"); /* Replace with the actual image path */
+}
+
+.box4-image {
+    background-image: url("4.jpg"); /* Replace with the actual image path */
+}
+
+h2 {
+    align-self: flex-start;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+    color: #2162a1;
+    margin-top: 20px;
+    align-self: flex-start;
+    font-size: 15px;
+    
+}
+footer{
+    margin-top: 30px;
+}
+.back{
+    height: 49px;
+    background-color: #232f3ee8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #ffffff;
+}
+.foot-panel{
+    height: 350px;
+    background-color: #232F3e;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul h3{
+font-size: 16px;
+margin-top: 50px;
+}
+ul a{
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.currency{
+    height: 78px;
+    background-color: #232F3e;
+    border-top: 0.1px solid #acacac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-icon{
+    background-image: url("hey.png");
+    height: 50px;
+    width: 60%;
+    background-size: contain; /* Ensure the image fits within the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+}
+.copyright{
+    height: 77.2px;
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #dddddd;
+    font-size: 12px;
+}
+.line2{
+    margin-top: 8px;
+}
